@@ -50,3 +50,18 @@
     color: black;
     text-decoration: none;
 }
+
+.general-body h2{
+    text-align: center;
+}
+
+.general-body div {
+    padding: 10%;
+}
+
+
+.education table {
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+}
