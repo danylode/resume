@@ -2,31 +2,36 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
+
 .general {
     height: 100%;
     width: 50%;
-    margin: auto;
+    margin: 5% auto;
 }
 
 .general-info {
     height: 100%;
     width: 40%;
     float: left;
-    background-color: #ECCDAE;
+    background-color: #E6DACC;
 }
 
 .general-body {
     height: 100%;
     width: 60%;
     float: left;
-    background-color: #869EAA;
+    background-color: #D9CFCC;
 }
 
 .main-info {
     height: 40%;
     width: 100%;
     float: top;
-    background-color: #ECCDAE;
+    background-color: #E6DACC;
 }
 
 #photo {
@@ -35,6 +40,7 @@
     margin: 10% auto;
     height: 60%;
     width: 60%;
+    
 }
 
 .name {
@@ -64,4 +70,12 @@
     table-layout: fixed;
     text-align: center;
     width: 100%;
+}
+
+.header {
+    height: 7%;
+    width: 100%;
+    background-color: #F0E0D5;
+    position:fixed;
+    top: 0;
 }
