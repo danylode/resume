@@ -1,81 +1,56 @@
-* {
-    font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 
 body {
     margin: 0;
+    font-family: 'Shippori Antique B1', sans-serif;
 }
 
+header {
+    top: 0;
+    position: fixed;
+    background-color: #46F0CC;
+    height: 60px;
+    width: 100%;
+}
 
-.general {
-    height: 100%;
-    width: 50%;
-    margin: 5% auto;
+.header-nav a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin: 15px;
 }
 
 .general-info {
-    height: 100%;
-    width: 40%;
-    float: left;
-    background-color: #E6DACC;
-}
-
-.general-body {
-    height: 100%;
-    width: 60%;
-    float: left;
-    background-color: #D9CFCC;
-}
-
-.main-info {
-    height: 40%;
+    height: 50%;
     width: 100%;
-    float: top;
-    background-color: #E6DACC;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    display:inline-block;
+}
+
+.photo-and-name{
+    width: 600px;
+    margin: 50px;
+}
+
+.photo-and-name h2, h3{
+    margin-left: 260px;
 }
 
 #photo {
-    display: block;
-    border-radius: 50%;
-    margin: 10% auto;
-    height: 60%;
-    width: 60%;
-    
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 20px solid white;
 }
 
-.name {
-    margin: -5%;
+.about-me {
+    float: right;
+    width: 600px;
+}
+
+.text-center{
     text-align: center;
-}
-
-.contacts{
-    margin: 10%;
-}
-
-.contacts a{
-    color: black;
-    text-decoration: none;
-}
-
-.general-body h2{
-    text-align: center;
-}
-
-.general-body div {
-    padding: 10%;
-}
-
-
-.education table {
-    table-layout: fixed;
-    text-align: center;
-    width: 100%;
-}
-
-.header {
-    height: 7%;
-    width: 100%;
-    background-color: #F0E0D5;
-    position:fixed;
-    top: 0;
 }
